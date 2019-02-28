@@ -13,7 +13,11 @@ Verified to only work on python 3.7
 sudo pip install -r /path/to/Simply_Playlists/SimplyPlaylists/requirements.txt
 
 ### Running
-set path to  /path/to/Simply_Playlists/SimplyPlaylists/
+
+#### set path  
+cd /path/to/Simply_Playlists/SimplyPlaylists/
+
+#### Run
 ./simply_playlists.py playlist1 playlist2
 
 #### example of 2 playlists

@@ -27,10 +27,10 @@ sudo pip install -r /path/to/Simply_Playlists/SimplyPlaylists/requirements.txt
 cd /path/to/Simply_Playlists/SimplyPlaylists/
 
 #### Run
-./simply_playlists.py playlist1 playlist2
+./simply_playlists.py "playlist1" "playlist2"
 
 #### example of 2 playlists
-./simply_playlists.py https://www.youtube.com/watch?v=_iGy3y9uW5Y&start_radio=1&list=RD_iGy3y9uW5Y https://www.youtube.com/watch?v=iI34LYmJ1Fs&list=PLuUrokoVSxlcHkpmmpa-RwKgPQMdbSvlb
+./simply_playlists.py "https://www.youtube.com/watch?v=_iGy3y9uW5Y&start_radio=1&list=RD_iGy3y9uW5Y" "https://www.youtube.com/watch?v=iI34LYmJ1Fs&list=PLuUrokoVSxlcHkpmmpa-RwKgPQMdbSvlb"
 
 #### example of 1 playlist
-./simply_playlists.py https://www.youtube.com/watch?v=_iGy3y9uW5Y&start_radio=1&list=RD_iGy3y9uW5Y 
+./simply_playlists.py "https://www.youtube.com/watch?v=_iGy3y9uW5Y&start_radio=1&list=RD_iGy3y9uW5Y"

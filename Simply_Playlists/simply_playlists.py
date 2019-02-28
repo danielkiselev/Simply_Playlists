@@ -112,6 +112,7 @@ def main(counter):
                     else:
                         break
                 else:
+                    nameOfSong = subPage
                     #//*[@id="movie_player"]/div[26]/div[2]/div[1]/a[2]
                     print("skipping")
                     try:

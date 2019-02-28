@@ -2,7 +2,7 @@
 If you have issues with Youtube playlists repeating songs and overall not properly functioning then this is for you
 
 ## Before you run notes
-This utilizes a light-weight chrome driver which can be used in conjuction to your main browser. If you use chrome as your browser of choice, then make sure that you have it open before running this program. Otherwise your mac will think that chrome is already open and use the light-weight chromedriver.
+This utilizes a light-weight chrome driver which can be used in conjuction to your main browser. If you use chrome as your browser of choice, then make sure that you have it open before running this program. Otherwise your mac will think that chrome is already open and use the light-weight chrome driver.
 ### Work-around
 * Quit chrome and terminate the program. 
 * Launch chrome, and re-run program.

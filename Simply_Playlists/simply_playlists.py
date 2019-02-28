@@ -76,7 +76,10 @@ def main(counter):
     driver.create_options()
     driver.implicitly_wait(10)
     driver.get(url)
-    myElem = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, r'//*[@id="movie_player"]/div[27]/div[2]/div[1]/a[2]')))
+    WebDriverWait(driver, 10)
+    driver.refresh()
+    time.sleep(10)
+    # myElem = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, r'//*[@id="movie_player"]/div[26]/div[2]/div[1]/a[2]')))
     nameOfSong = None
     timeVid = 0
     while True:
@@ -109,8 +112,12 @@ def main(counter):
                     else:
                         break
                 else:
+                    #//*[@id="movie_player"]/div[26]/div[2]/div[1]/a[2]
                     print("skipping")
-                    driver.find_element_by_xpath(r'//*[@id="movie_player"]/div[27]/div[2]/div[1]/a[2]').click()
+                    try:
+                        driver.find_element_by_xpath(r'//*[@id="movie_player"]/div[27]/div[2]/div[1]/a[2]').click()
+                    except:
+                        driver.find_element_by_xpath(r'//*[@id="movie_player"]/div[26]/div[2]/div[1]/a[2]').click()
                     continue
             nameOfSong = subPage
         except:

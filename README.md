@@ -8,7 +8,10 @@ This utilizes a light-weight chrome driver which can be used in conjuction to yo
 * Launch chrome, and re-run program.
 * You should see a new instance of chrome open up, which you can place in a seperate window with terminal for cleanliness.
 * Enjoy!
- 
+
+## Planned
+* Playlist Control via terminal.
+* UI Implimentation for url links management, playlist control 
 
 ## Getting Started
 MacOS Only for now
